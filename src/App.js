@@ -1,15 +1,12 @@
-import React from "react";
-import Menu from "./Menu";
+import Phones from "./Phones";
 
-export default function App(){
-
+function App(){
     return(
         <div>
-            <h1>Hello WebStorm</h1>
-            <Menu />
+            Component App
+
+            <Phones/>
         </div>
-
     );
-
-
 }
+export default App;
